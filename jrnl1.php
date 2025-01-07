@@ -8,8 +8,8 @@
     </body>
 </html>
 <?php
-    $nm=$_POST["tnm"];
-    $email=$_POST["tml"];
+    $nm=$_REQUEST["tnm"];
+    $email=$_REQUEST["tml"];
     echo "Welcome $nm <br>";
     echo "Your email is $email";
 ?>
