@@ -1,6 +1,6 @@
 <?php
-    $nm=$_POST["txtnm"];
-    $email=$_POST["txtemail"];
+    $nm=$_REQUEST["txtnm"];
+    $email=$_REQUEST["txtemail"];
     echo "Welcome $nm <br>";
     echo "Your email is $email";
 ?>
